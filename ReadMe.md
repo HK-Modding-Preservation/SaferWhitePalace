@@ -1,3 +1,3 @@
-# Safer_White_Palace
+# SaferWhitePalace
 
 A mod for the game Hollow Knight.

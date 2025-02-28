@@ -7,9 +7,9 @@ using Satchel.BetterMenus;
 namespace SaferWhitePalace {
     class SaferWhitePalace: Mod, ICustomMenuMod, IGlobalSettings<GlobalSettings> {
         new public string GetName() => "Safer White Palace";
-        public override string GetVersion() => "v1.0.0.0";
+        public override string GetVersion() => "1.0.0.1";
         private Menu MenuRef;
-        public static GlobalSettings gs = new GlobalSettings();
+        public static GlobalSettings gs = new();
 
         public override void Initialize(Dictionary<string, Dictionary<string, GameObject>> preloadedObjects) {
             On.GameManager.OnNextLevelReady += sceneChangeFunc;
